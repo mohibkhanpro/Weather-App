@@ -1,0 +1,30 @@
+.main-div{
+    width: 30vw;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    height: 40vh;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.3);
+
+}
+.form_div{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.form-input{
+    height: 23px;
+    padding: 3px;
+}
+button{
+    padding: 8px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
